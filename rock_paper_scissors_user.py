@@ -7,8 +7,8 @@ def play():
     x = int(input("How many times do you want to play: "))
 
     for i in range(0,x):
-        user1 = input("'r' for rock, 'p' for papers, 's' for scissors': ")
-        user2 = input("'r' for rock, 'p' for papers, 's' for scissors': ")
+        user1 = input(f"{user1_name}: 'r' for rock, 'p' for papers, 's' for scissors': ")
+        user2 = input(f"{user2_name}: 'r' for rock, 'p' for papers, 's' for scissors': ")
 
 #r>s p>r s>p
         if user1 == user2:

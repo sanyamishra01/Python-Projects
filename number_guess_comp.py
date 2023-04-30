@@ -12,4 +12,4 @@ def guess(x):
     
     print("Congrats. Correct number guessed!")
 
-guess(10)
+guess(1000)
